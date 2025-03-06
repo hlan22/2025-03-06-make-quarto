@@ -17,3 +17,7 @@ Other fun facts:
 * ipynb = i python notebook! wow.
 * embed-resources in the title at the top makes a big difference, allows the file to be truly independent
     * it does make the file significantly larger
+* jekyll will build the actual website (similar to quarto render)
+  * when building website, there is an action that says "build with jekyll"
+  * there are ways to completely avoid jekyll, sometimes you need to
+  * you can do that with .nojekyll, which goes wherever index.html file is
