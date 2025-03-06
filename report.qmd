@@ -6,7 +6,9 @@ editor: visual
 
 heres a report of the titanic data
 
-
 # Figure
 
 ![](output/fig.png)
+
+
+ipynb = i python notebook! wow.
