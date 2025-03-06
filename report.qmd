@@ -1,7 +1,9 @@
 ---
 title: "My awesome report"
-format: html
-editor: visual
+#editor: visual
+format:
+  html:
+    embed-resources: true
 ---
 
 heres a report of the titanic data
@@ -10,5 +12,8 @@ heres a report of the titanic data
 
 ![](output/fig.png)
 
+Other fun facts:
 
-ipynb = i python notebook! wow.
+* ipynb = i python notebook! wow.
+* embed-resources in the title at the top makes a big difference, allows the file to be truly independent
+    * it does make the file significantly larger
